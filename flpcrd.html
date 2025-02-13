@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>CodePen - Valentine&#39;s Day card</title>
-  <link rel="stylesheet" href="./styles.css">
+  <!-- <link rel="stylesheet" href="./styles.css"> -->
 
 </head>
 <body>
@@ -125,7 +125,7 @@ body {
 #card:hover #heart1 {
   -webkit-animation: openLeft 2s ease-in-out forwards;
   -moz-animation: openLeft 2s ease-in-out  forwards;
-  -ms-animation: openLeft 2 ease-in-out  forwards;
+  -ms-animation: openLeft 2s ease-in-out  forwards;
   animation: openLeft 2s ease-in-out  forwards;
 }
 #card:hover #heart2 {
@@ -136,7 +136,7 @@ body {
 
 @-webkit-keyframes closeLeft {
   from {
-    -webkit-transform: rotateY(0deg);
+    -webkit-transform: rotateY(180deg);
   }
   to {
     -webkit-transform: rotateY(180deg);
@@ -144,7 +144,7 @@ body {
 }
 @-moz-keyframes closeLeft {
   from {
-    -moz-transform: rotateY(0deg);
+    -moz-transform: rotateY(180deg);
   }
   to {
     -moz-transform: rotateY(180deg);
@@ -152,7 +152,7 @@ body {
 }
 @-ms-keyframes closeLeft {
   from {
-    -ms-transform: rotateY(0deg);
+    -ms-transform: rotateY(180deg);
   }
   to {
     -ms-transform: rotateY(180deg);
@@ -160,7 +160,7 @@ body {
 }
 @keyframes closeLeft {
   from {
-    transform: rotateY(0deg);
+    transform: rotateY(180deg);
   }
   to {
     transform: rotateY(180deg);
@@ -232,7 +232,7 @@ body {
 }
 @-webkit-keyframes closeRight {
   from {
-    -webkit-transform: rotateX(0deg) rotate(180deg);
+    -webkit-transform: rotateX(180deg) rotate(0deg);
   }
   to {
     -webkit-transform: rotateX(180deg);
@@ -240,7 +240,7 @@ body {
 }
 @-moz-keyframes closeRight {
   from {
-    -moz-transform: rotateX(0deg) rotate(180deg);
+    -moz-transform: rotateX(180deg) rotate(0deg);
   }
   to {
     -moz-transform: rotateX(180deg);
@@ -248,7 +248,7 @@ body {
 }
 @-ms-keyframes closeRight {
   from {
-    -ms-transform: rotateX(0deg) rotate(180deg);
+    -ms-transform: rotateX(180deg) rotate(0deg);
   }
   to {
     -ms-transform: rotateX(180deg);
@@ -256,7 +256,7 @@ body {
 }
 @keyframes closeRight {
   from {
-    transform: rotateX(0deg) rotate(180deg);
+    transform: rotateX(180deg) rotate(0deg);
   }
   to {
     transform: rotateX(180deg);
